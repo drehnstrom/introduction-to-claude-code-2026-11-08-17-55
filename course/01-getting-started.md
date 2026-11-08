@@ -33,7 +33,7 @@ Introduction to Claude Code
 # Terminal-Native Agentic Coding
 
 - **Direct shell integration**: Claude Code operates inside your local terminal environment
-  - Runs directly where your compilers, linters, and git branches already live
+  - Runs directly where your compilers, linters, and Git branches already live
   - Eliminates the friction of copying snippets between browser windows and editors
 - **Autonomous tool execution**: Plans and carries out multi-step engineering tasks
   - Searches project trees, inspects code symbols, and edits files in place
@@ -89,11 +89,11 @@ Introduction to Claude Code
   - Color-coded diffs display proposed file changes before writes occur
   - Shell commands show exact arguments and target paths before execution
 - **Safe read-only defaults**: Directory navigation and file searches execute automatically
-  - Inspecting files and reading git history proceed without interruption
+  - Inspecting files and reading Git history proceed without interruption
   - Write operations, script executions, and system modifications require confirmation
 
 > [!IMPORTANT]
-> Always review proposed file diffs and bash commands before approving them, especially when commands affect disk state or git history.
+> Always review proposed file diffs and Bash commands before approving them, especially when commands affect disk state or Git history.
 
 ---
 
@@ -112,7 +112,7 @@ Introduction to Claude Code
 - **Interactive mode**: Launching `claude` opens an ongoing collaborative conversation
   - Ideal for exploratory coding, debugging, and iterative multi-step features
 - **Single-prompt mode**: The `-p` flag executes a query and returns directly to your shell
-  - Useful for quick explanations, git commit messages, or pipeline integration
+  - Useful for quick explanations, Git commit messages, or pipeline integration
 
 ```bash
 # Navigate to your project directory and start an interactive session

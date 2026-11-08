@@ -73,14 +73,14 @@ Introduction to Claude Code
 # Prompt Evolution: Vague vs Directed
 
 ### Vague Prompt
-- `“Build a weather script”`
+- `"Build a weather script"`
 - Generates arbitrary dependencies
 - Places files in unexpected locations
 - Misses error handling and edge cases
 - Requires multiple rounds of cleanup
 
 ### Directed Prompt
-- `“Create src/weather.py using urllib and json”`
+- `"Create src/weather.py using urllib and json"`
 - Declares exact module location and dependencies
 - Requests `parse_args()` and type hints
 - Specifies graceful handling of `HTTPError`
@@ -327,12 +327,12 @@ Allow this change? (y/n/e)
 - **Interrupting undesirable execution**: Press `Ctrl+C` once to halt active tool runs
   - Stops Claude Code before it begins generating unneeded files
   - Keeps the interactive session open so you can re-prompt immediately
-- **Leveraging version control**: Rely on git as your safety net
+- **Leveraging version control**: Rely on Git as your safety net
   - Use `git status` and `git diff` outside or within Claude Code to inspect state
   - Revert unintended changes quickly using `git checkout -- <file>` or `git restore`
 
 > [!CAUTION]
-> If Claude Code produces unintended file modifications, do not attempt to fix them with vague follow-ups. Reject the change or revert via git, then provide explicit constraints.
+> If Claude Code produces unintended file modifications, do not attempt to fix them with vague follow-ups. Reject the change or revert via Git, then provide explicit constraints.
 
 ---
 
@@ -357,7 +357,7 @@ Lab link: TODO
 - Prompted Claude Code to scaffold project files and generate feature code
 - Crafted effective, context-rich prompts for accurate code generation
 - Generated and coordinated multi-file project architectures across source trees
-- Inspected, reviewed, and approve proposed file modifications safely
+- Inspected, reviewed, and approved proposed file modifications safely
 - Directed Claude Code to generate project code and verified the output
 
 ---
@@ -366,10 +366,10 @@ Lab link: TODO
 
 **Which prompt produces the most reliable and accurate code generation when using Claude Code?**
 
-- A. `“Write an authentication system for this application that is secure”`
-- B. `“Create src/auth.py with an authenticate_user function using bcrypt, returning a UserSession dataclass”`
-- C. `“Make this codebase better by adding modern features and clean code”`
-- D. `“Generate ten files for our user registration flow and decide on the libraries yourself”`
+- A. `"Write an authentication system for this application that is secure"`
+- B. `"Create src/auth.py with an authenticate_user function using bcrypt, returning a UserSession dataclass"`
+- C. `"Make this codebase better by adding modern features and clean code"`
+- D. `"Generate ten files for our user registration flow and decide on the libraries yourself"`
 
 ---
 
@@ -377,7 +377,7 @@ Lab link: TODO
 
 **Which prompt produces the most reliable and accurate code generation when using Claude Code?**
 
-**Correct: B.** `“Create src/auth.py with an authenticate_user function using bcrypt, returning a UserSession dataclass”`
+**Correct: B.** `"Create src/auth.py with an authenticate_user function using bcrypt, returning a UserSession dataclass"`
 
 - Specifies the exact target path (`src/auth.py`) rather than guessing directory structure
 - Names the target function and algorithm (`authenticate_user` with `bcrypt`)
