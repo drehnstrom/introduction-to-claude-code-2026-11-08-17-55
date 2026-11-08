@@ -1,1 +1,2 @@
 labs/lab-01-starting-claude-code-and-initializing-a-project/lab.md
+labs/lab-02-generating-code-with-claude-code/lab.md
