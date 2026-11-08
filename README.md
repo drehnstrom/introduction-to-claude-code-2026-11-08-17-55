@@ -1,51 +1,17 @@
-# ROI Course Authoring Template
+# Introduction to Claude Code (1 hour)
 
-Template repository for ROI Training **slide courses** and **labs**.
-It does **not** include the slide or lab viewer apps—only what instructors need
-to author content with an AI coding agent.
+Developers spend substantial time navigating unfamiliar project structures, writing boilerplate code, and manually diagnosing test failures. Terminal workflows often require switching contexts between editors, command-line tools, and documentation, slowing down daily development momentum.
 
-## What’s in this repo
+This course introduces developers to Claude Code, an agentic command-line tool that assists with software development tasks directly in the terminal. Students learn to launch Claude Code, initialize new projects, prompt for clean code generation, write and execute automated tests, and refactor existing code.
 
-| Path | Purpose |
-| :--- | :--- |
-| `course/` | Slide Markdown + shared `images/` (stock graphics + sample) |
-| `labs/` | One folder per lab (`lab.md`, `images/`, `solution/`) |
-| `plan/` | Course Architect output (`course-outline.md`) |
-| `reviews/` | Technical Editor and Copy Editor reports |
-| `scripts/new-course.sh` | Create a new course repo from this template |
-| `.agents/skills/course-architect/` | Plan the course before any slides |
-| `.agents/skills/course-spine-generator/` | Opening file and chapter frame, after the outline is approved |
-| `.agents/skills/course-generator/` | Teaching slides, quizzes, and `Lab link: TODO` |
-| `.agents/skills/instructor-review/` | Teaching edits before any human review |
-| `.agents/skills/course-graphics-designer/` | Visual polish after Instructor Review |
-| `.agents/skills/technical-editor/` | Accuracy and currency |
-| `.agents/skills/copy-editor/` | Spelling, grammar, typography, consistency |
-| `.agents/skills/lab-generator/` | Labs that practice the slides; solution first |
-| `.agents/skills/lab-tester/` | Run a lab as a student; report for Lab Generator |
-| `.agents/skills/shared/` | Viewer formatting rules every editing skill must follow |
-| `.cursorrules`, `CLAUDE.md`, `AGENTS.md`, `.github/copilot-instructions.md` | Point every common coding agent at the skills |
+## Course
 
-## Quick start
+[Open the course](https://slidesv.roitraining.com/?course=https%3A%2F%2Fgithub.com%2Fdrehnstrom%2Fintroduction-to-claude-code-2026-11-08-17-55%2Fblob%2Fmain%2Fcourse%2F00-introduction.md#slide-1)
 
-1. **Create your course repo** with `scripts/new-course.sh` (ask an agent to run it), or GitHub → *Use this template*.
-2. **Open the repo** in Cursor, VS Code (Copilot), Claude Code, Antigravity, or another agent-capable editor.
-3. **Follow [PIPELINE.md](PIPELINE.md)** one step per fresh agent session:
-   Architect → spine → content → instructor review → graphics → technical edit → labs → lab test → apply the test → copy edit.
-4. **Preview slides** in the hosted HTML Slides Viewer (paste your GitHub course folder URL):
-   - https://slidesv.roitraining.com/
-5. **Preview labs** at https://labv.roitraining.com/ (paste the lab folder URL).
+## Labs
 
-Authoring notes (folder layout, stock images, what not to do): **[AUTHORING.md](AUTHORING.md)**.
+- [Starting Claude Code and Initializing a Project](https://labv.roitraining.com/?lab=https://github.com/drehnstrom/introduction-to-claude-code-2026-11-08-17-55/tree/main/labs/lab-01-starting-claude-code-and-initializing-a-project)
+- [Generating Code with Claude Code](https://labv.roitraining.com/?lab=https://github.com/drehnstrom/introduction-to-claude-code-2026-11-08-17-55/tree/main/labs/lab-02-generating-code-with-claude-code)
+- [Testing and Refactoring with Claude Code](https://labv.roitraining.com/?lab=https://github.com/drehnstrom/introduction-to-claude-code-2026-11-08-17-55/tree/main/labs/lab-03-testing-and-refactoring-with-claude-code)
 
-## Sample
-
-Open `course/sample-course.md` in the slides viewer to see layouts and stock intro/outro images.
-
-## Courses in this repo
-
-- [Introducing the ROI Course Factory](https://slidesv.roitraining.com/?course=https://github.com/roitraining/roi-course-authoring-template/tree/main/introducing-the-roi-course-factory/course) — how authors, editors, and instructors use the template, the viewers, and the skills. Source: `introducing-the-roi-course-factory/`.
-
-## Related products
-
-- Slides viewer: https://slidesv.roitraining.com/ (source: https://github.com/roitraining/md-to-html-slides-viewer)
-- Lab viewer: https://labv.roitraining.com/ (source: https://github.com/roitraining/md-to-html-lab-viewer)
+Course generation started 2026-11-08 17:55 UTC, ended 2026-11-08 18:12 UTC, and took 16 minutes 52 seconds.
