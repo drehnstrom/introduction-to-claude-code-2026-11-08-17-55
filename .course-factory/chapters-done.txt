@@ -1,2 +1,3 @@
 course/01-getting-started.md
 course/02-prompting-for-code-generation.md
+course/03-testing-and-refactoring.md
